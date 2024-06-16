@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
         //limitar las fechas seleccionables
 
         calendarView.setMinDate(System.currentTimeMillis()-1000); //desde hoy
-        calendarView.setMaxDate(System.currentTimeMillis() + (1000*60*60*24*7));// hasta una semana desde hoy
+        //calendarView.setMaxDate(System.currentTimeMillis() + (1000*60*60*24*7));// hasta una semana desde hoy
     }
-}
+}// el archivo no compila
